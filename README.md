@@ -14,7 +14,7 @@ If you want to create a gallery or intro page (with rotating images), this modul
 
 ## Installation
 1. Extract the silverstripe-module_gallery folder into the top level of your site and rename it to module_gallery
-2. Run /dev/build?flush=all to add the two new page types
+2. Run ``/dev/build?flush=all`` to add the two new page types
 
 
 ## Configuration
