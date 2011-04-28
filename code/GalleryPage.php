@@ -42,7 +42,7 @@ class GalleryPage extends Page {
 			'GalleryImage',
 			'BaseImage',
 			array(
-				'Title' => 'Title',
+				'Title' => _t('GalleryPage.TITLE', 'Title'),
 			)
 		);
 

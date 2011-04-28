@@ -6,7 +6,7 @@
 					<a href="$Top.PageRedirect.Link">
 						<% control BaseImage %>
 							<% control SetSize(720, 478) %>
-								<img src="$URL" alt="Intro image number $Pos" class="rounded transparent-nonie shadow"/>
+								<img src="$URL" alt="<% _t('NUMBER', 'Intro image') %>" class="intro-image"/>
 							<% end_control %>
 						<% end_control %>
 					</a>
