@@ -4,7 +4,7 @@
 /**
  * Provide a container for our custom images.
  *
- * @package mysite
+ * @package module_gallery
  */
 class CustomImage extends DataObject {
 

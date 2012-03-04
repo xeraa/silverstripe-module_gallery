@@ -5,7 +5,7 @@
 /**
  * Generic definition of the gallery page.
  *
- * @package mysite
+ * @package module_gallery
  */
 class AbstractGalleryPage extends Page {
 
@@ -47,7 +47,7 @@ class AbstractGalleryPage extends Page {
 /**
  * Generic controller for the gallery page.
  *
- * @package mysite
+ * @package module_gallery
  */
 abstract class AbstractGalleryPage_Controller extends Page_Controller {
 

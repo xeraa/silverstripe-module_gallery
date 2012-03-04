@@ -11,7 +11,7 @@ define('GALLERY_ICON_PATH', MODULE_GALLERY_DIR . '/icons/gallery');
 /**
  * Definining the gallery page.
  *
- * @package mysite
+ * @package module_gallery
  */
 class GalleryPage extends AbstractGalleryPage {
 
@@ -35,7 +35,7 @@ class GalleryPage extends AbstractGalleryPage {
 /**
  * Controller for the gallery page.
  *
- * @package mysite
+ * @package module_gallery
  */
 class GalleryPage_Controller extends AbstractGalleryPage_Controller {
 

@@ -4,7 +4,7 @@
 /**
  * Provide a container for our gallery images.
  *
- * @package mysite
+ * @package module_gallery
  */
 class GalleryImage extends CustomImage {
 

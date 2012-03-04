@@ -11,7 +11,7 @@ define('INTRO_ICON_PATH', MODULE_GALLERY_DIR . '/icons/intro');
 /**
  * Intro page.
  *
- * @package mysite
+ * @package module_gallery
  */
 class IntroPage extends Page {
 
@@ -67,7 +67,7 @@ class IntroPage extends Page {
 /**
  * Controller for the intro page.
  *
- * @package mysite
+ * @package module_gallery
  */
 class IntroPage_Controller extends Page_Controller {
 

@@ -11,7 +11,7 @@ define('FLEXIBLEGALLERY_ICON_PATH', MODULE_GALLERY_DIR . '/icons/flexible');
 /**
  * Definining the flexible gallery page.
  *
- * @package mysite
+ * @package module_gallery
  */
 class FlexibleGalleryPage extends AbstractGalleryPage {
 
@@ -44,7 +44,7 @@ class FlexibleGalleryPage extends AbstractGalleryPage {
 /**
  * Controller for the flexible gallery page.
  *
- * @package mysite
+ * @package module_gallery
  */
 class FlexibleGalleryPage_Controller extends AbstractGalleryPage_Controller {
 
