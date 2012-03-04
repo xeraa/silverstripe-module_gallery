@@ -66,13 +66,15 @@ abstract class AbstractGalleryPage_Controller extends Page_Controller {
 
     // Do not use SilverStripe's included jQuery version 1.4.2 via ``THIRDPARTY_DIR . '/jquery/jquery-packed.js'``
     // as it does not work with the latest Colorbox version
-		Requirements::javascript(MODULE_GALLERY_DIR . '/thirdparty/jquery/jquery.min.js');
+    Requirements::javascript(MODULE_GALLERY_DIR . '/thirdparty/jquery/jquery.min.js');
+    // We need to bind this jQuery version to something else than $ to avoid conflicts
+    Requirements::customScript('var jq17 = jQuery.noConflict(true);');
 		Requirements::css(MODULE_GALLERY_DIR . '/thirdparty/colorbox/colorbox.css', 'screen,projection');
 		Requirements::javascript(MODULE_GALLERY_DIR . '/thirdparty/colorbox/jquery.colorbox-min.js');
 		$js =
 <<<JS
-			$(document).ready(function(){
-				$(".group").colorbox({rel:'group'});
+			jq17(document).ready(function(){
+				jq17(".group").colorbox({rel:'group'});
 			});
 JS;
 		Requirements::customScript($js);
