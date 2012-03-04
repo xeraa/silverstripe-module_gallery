@@ -40,7 +40,7 @@ class GalleryImage extends CustomImage {
 		if($image->getOrientation() == 2){
 			return $image->SetWidth(720)->URL;
 		} else {
-			return $image->SetHeight(500)->URL;
+			return $image->SetHeight(550)->URL;
 		}
 	}
 
