@@ -1,5 +1,5 @@
 # Basic Gallery and Intro Page Module
-Easily extendable image gallery and intro page module - intentionally kept very simple.
+Easily extendable image gallery, flexible image gallery, and intro page module - intentionally kept very simple.
 
 
 ## Description
@@ -21,8 +21,12 @@ If you want to create a gallery or intro page (with rotating images), this modul
 None at the moment.
 
 
+## Usage
+Intro page and the regular gallery should be relatively self-explaining. In the flexible gallery you can put the images anywhere inside the ``$Content`` area with the short code ``[FlexibleGallery]``.
+
+
 ## License
-    Copyright (c) 2011, Philipp Krenn
+    Copyright (c) 2011 & 2012, Philipp Krenn
     All rights reserved.
    
     Redistribution and use in source and binary forms, with or without
