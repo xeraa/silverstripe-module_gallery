@@ -91,13 +91,13 @@ class FlexibleGalleryPage_Controller extends Page_Controller {
 	public function init(){
 		parent::init();
 
-		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery-packed.js');
+		Requirements::javascript(MODULE_GALLERY_DIR . '/thirdparty/jquery/jquery.min.js');
 		Requirements::css(MODULE_GALLERY_DIR . '/thirdparty/colorbox/colorbox.css', 'screen,projection');
 		Requirements::javascript(MODULE_GALLERY_DIR . '/thirdparty/colorbox/jquery.colorbox-min.js');
 		$js =
 <<<JS
 			$(document).ready(function(){
-				$("a[rel='gallery']").colorbox();
+				$(".group").colorbox({rel:'group'});
 			});
 JS;
 		Requirements::customScript($js);
