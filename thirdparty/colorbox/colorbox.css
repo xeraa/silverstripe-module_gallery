@@ -18,6 +18,7 @@
     User Style:
     Change the following styles to modify the appearance of Colorbox.  They are
     ordered & tabbed in a way that represents the nesting of the generated HTML.
+    Absolute paths required if the CSS is combined with others and served from assets/.
 */
 #cboxOverlay{background:url(/module_gallery/thirdparty/colorbox/images/overlay.png) repeat 0 0;}
 #colorbox{outline:0;}
